@@ -1,10 +1,7 @@
-import React from 'react';
-// import MyImage from "/Users/melanieroberts/Desktop/react/project-name/src/assets/bg-masthead.png" ; // Import the image
-import BgImage from './components/bgImaged.png';
+import React from "react";
 
-    <div>
-      <img src={BgImage} alt="Description of image" />
-    </div>
+function BgImageComponent() {
+  return <img src="/bg-image.png" alt="Background" />;
+}
 
-
-export default BgImage;
+export default BgImageComponent;

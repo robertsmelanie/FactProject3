@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+.bg-image {
+  width: 50%; /* Adjust as needed */
+  height: auto; /* Keeps aspect ratio */
+  max-width:100px; /* Prevents it from getting too big */
+}

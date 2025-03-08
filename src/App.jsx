@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar"
 import React, {Component} from 'react'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
-import BgImage from './components/BgImage';
+import BgImageComponent from "./components/BgImage";
 import Home from './components/Home'
 import Fact1 from "./components/Fact1"
 import Fact2 from "./components/Fact2"
@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <BrowserRouter>
       <div className="App">
-        <BgImage />
+      <BgImageComponent />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home/>}/>
