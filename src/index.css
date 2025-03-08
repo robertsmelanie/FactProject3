@@ -28,7 +28,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+  /* background-color: #535bf2; */
+  /* background-image: url(/Users/melanieroberts/Downloads/1firetree.jpeg);
+  background-size: cover;*/
+} 
 
 h1 {
   font-size: 3.2em;
@@ -65,4 +68,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.container {
+  background-color: whitesmoke;
 }
