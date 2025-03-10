@@ -29,7 +29,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #669bbc;
-  background-image: url('/bg-image.png'); 
+  /* background-image: url('/bg-image.png');  */
 
 } 
 
