@@ -14,7 +14,7 @@ import './App.jsx'
 class App extends Component {
   render(){
     return (
-      <BrowserRouter>
+      <BrowserRouter basename = '/project-name'>
       <div className="App">
       <BgImageComponent />
         <Navbar />
