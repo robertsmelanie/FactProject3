@@ -25,9 +25,14 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; */
+  background-color: #669bbc;
+  /* background-image: url('/Artblue37.png');
+  background-repeat: repeat;
+  background-size: cover; */
+  /* background-position: center; */
   /* background-color: #535bf2; */
   /* background-image: url(/Users/melanieroberts/Downloads/1firetree.jpeg);
   background-size: cover;*/
@@ -72,3 +77,9 @@ button:focus-visible {
 .container {
   background-color: whitesmoke;
 }
+/* img {
+  background-image: url(/project-name/public/Artblue37.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+} */
