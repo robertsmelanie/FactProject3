@@ -1,20 +1,20 @@
 
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar.jsx"
 import React, {Component} from 'react'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
-import BgImageComponent from "./components/BgImage";
-import Home from './components/Home'
-import Fact1 from "./components/Fact1"
-import Fact2 from "./components/Fact2"
-import Fact3 from "./components/Fact3"
+import BgImageComponent from "./components/BgImage.jsx";
+import Home from './components/Home.jsx'
+import Fact1 from "./components/Fact1.jsx"
+import Fact2 from "./components/Fact2.jsx"
+import Fact3 from "./components/Fact3.jsx"
 import './App.css'
 import './App.jsx'
 
 class App extends Component {
   render(){
     return (
-      <BrowserRouter basename = '/project-name'>
+      <BrowserRouter basename = '/FactProject3'>
       <div className="App">
       <BgImageComponent />
         <Navbar />
