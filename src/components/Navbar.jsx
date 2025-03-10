@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Navbar = () => {
+function Navbar () {
   return (
-    <nav className='nav-wrapper red darken-3'>
-    <div className='container'>
-    <ul className ="right">
+    <nav>
+    <div>
+    <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/Fact1">Fact 1</a></li>
         <li><a href="/Fact2">Fact 2</a></li>
